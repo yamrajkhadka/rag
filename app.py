@@ -44,11 +44,8 @@ def search_law(query, sbert, index, metadata, k=3):
 
 def ask_llm(client, context, question):
     prompt = f"""
-You are a Nepal Criminal Code legal assistant.
+give correct answer"
 
-Answer ONLY using the law text provided below.
-If the answer is not present, reply:
-"The information is not available in the provided law."
 
 Law Text:
 {context}
